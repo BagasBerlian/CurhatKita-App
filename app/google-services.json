@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166318972177",
+    "project_id": "aplikasi-curhat-4e6a4",
+    "storage_bucket": "aplikasi-curhat-4e6a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166318972177:android:26b28700d04c2af80e80b0",
+        "android_client_info": {
+          "package_name": "info.fahri.aplikasicurhat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRcVr-z1LhClcErsj6YmNUhhYzPcuG4tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

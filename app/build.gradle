@@ -1,11 +1,13 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdk 32
+    namespace "info.fahri.aplikasicurhat"
+    compileSdk 34
     defaultConfig {
         applicationId "info.fahri.aplikasicurhat"
-        minSdk 21
-        targetSdk 32
+        minSdk 23
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -23,6 +25,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.firebase:firebase-auth:23.1.0'
+    implementation 'com.google.firebase:firebase-firestore:25.1.1'
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.2'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
