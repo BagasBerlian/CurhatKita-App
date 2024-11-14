@@ -38,7 +38,7 @@ public class DetailCurhatActivity extends AppCompatActivity {
         finish();
     }
 
-    public void deleteCurhat(View v){g
+    public void deleteCurhat(View v){
         firedb.collection("curhat").document(curhat.uid)
                         .delete().addOnFailureListener(new OnFailureListener() {
                     @Override
